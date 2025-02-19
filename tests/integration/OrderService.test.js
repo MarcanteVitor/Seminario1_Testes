@@ -16,7 +16,10 @@ describe("OrderService - Testes de Integração", () => {
     test("Deve encontrar um pedido pelo ID", () => {
         service.createOrder(1, 100);
         const order = service.findOrderById(1);
+        
+        expect(order).toEqual({ id: 1, customerId: 100 });
         expect(order.id).toBe(1);
+        expect(order.customerId).toBe(100);
     });
 
     test("Deve deletar um pedido", () => {
