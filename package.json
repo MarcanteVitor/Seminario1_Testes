@@ -1,0 +1,24 @@
+{
+  "name": "seminario1_testes",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/MarcanteVitor/Seminario1_Testes#readme",
+  "bugs": {
+    "url": "https://github.com/MarcanteVitor/Seminario1_Testes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcanteVitor/Seminario1_Testes.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "node src/index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
